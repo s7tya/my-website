@@ -1,0 +1,83 @@
+<h1 id="fastpagesを使って簡単にブログを作る">fastpagesを使って簡単にブログを作る</h1>
+
+<h2 id="fastpagesとは">fastpagesとは</h2>
+
+<p>fast.ai が開発したブログプラットフォーム(?)です。</p>
+
+<p>大きな特徴として、 「Jupyter Notebookをそのまま記事にできる」ということが挙げられます。</p>
+
+<p>(もちろんMarkdownも使えますし、なんと.docxファイル(要はwordですね)も使えます。すごい。)</p>
+
+<p>htmlやcssなどの知識を必要とせずに簡単に技術記事を書けるのはとても魅力的です。</p>
+
+<p>もちろん　<strong><em>Web完全理解者</em></strong>　の方は、自分なりにカスタマイズもできるみたいです。</p>
+
+<h2 id="使ってみよう">使ってみよう</h2>
+<p>それでは早速使ってみます。</p>
+
+<p>作業時間は（多分)10分もあればお釣りがきます。</p>
+<h3 id="レポジトリを作る">レポジトリを作る。</h3>
+<p>まずはレポジトリを作ります。</p>
+
+<p>https://github.com/fastai/fastpages にアクセスして、</p>
+
+<p>README.mdのSetup Instructionsの項目を実行していきます。</p>
+
+<p>まず、 1番目の項目のリンクから新しいレポジトリを作ります。</p>
+
+<p>この時にレポジトリの名前を {githubのユーザー名}.github.ioにしないように注意してください。</p>
+
+<p>すると。1分もしないうちに自動でセットアップの手順を記したPRがBotから飛んできます。これに従って設定していきます。</p>
+
+<h3 id="秘密鍵と公開鍵を作る">秘密鍵と公開鍵を作る</h3>
+
+<p>ここからは飛んできたPRを見てください。</p>
+
+<h4 id="生成">生成</h4>
+<p>1 のリンクに飛びます。
+    このWebサイトで秘密鍵と公開鍵を生成します。</p>
+
+<p>SSH-Keygen Online Algorithm　はRSA, RSA Key Sizeは4096を選択します。</p>
+
+<p>Passphraseは何も入力しなくて大丈夫です。</p>
+
+<p>generate-SSH-Keysで、　秘密鍵(画面上)と、　公開鍵(画面下)が生成されます。
+(ページは閉じないでください)</p>
+
+<p><img src="/my-website/images/generate_ssh_key.png" alt="" title="生成画面" /></p>
+
+<h4 id="秘密鍵の設定">秘密鍵の設定</h4>
+
+<p>次は2のリンクに飛びます。
+<code class="highlighter-rouge">new secret</code>をクリックして、先ほどの先ほど生成した秘密鍵を入力していきます。</p>
+
+<p>Nameには、　<code class="highlighter-rouge">SSH_DEPLOY_KEY</code> と入力します。</p>
+
+<p>そして、Valueに先ほど生成した秘密鍵(Private Key)をコピペします。</p>
+
+<p>最初と最後の<code class="highlighter-rouge">-----BEGIN RSA PRIVATE KEY-----</code>
+、
+<code class="highlighter-rouge">-----END RSA PRIVATE KEY-----</code> も忘れずにコピペしましょう。</p>
+
+<h4 id="公開鍵の設定">公開鍵の設定</h4>
+
+<p>最後に、 3 のリンクに飛びます。
+Add deploy key をクリックして、 生成した公開鍵(Public Key)をコピペします。</p>
+
+<p>Titleは何を設定しても問題ないので、公序良俗に反さない名前をつけておきましょう。</p>
+
+<p>最後に、 Allow write accessにチェックを入れて、 Add keyをクリックします。</p>
+
+<p>ここまでやれば設定は完了です。</p>
+
+<p>このPRをマージしてください。</p>
+
+<h2 id="すごい">すごい</h2>
+
+<p>しばらく待つと、
+https://{あなたのGitHubのユーザー名}.github.io/{作ったレポジトリの名前}</p>
+
+<p>に、Webサイトが構築されます！</p>
+
+<p><img src="/my-website/images/web_site_result.png" alt="" title="GitHubActionsすごい" /></p>
+
