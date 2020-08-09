@@ -24,14 +24,16 @@ htmlやcssなどの知識を必要とせずに簡単に技術記事を書ける�
 もちろん　**_Web完全理解者_**　の方は、自分なりにカスタマイズもできるみたいです。
 
 ## 使ってみよう
+
 それでは早速使ってみます。
 
 作業時間は（多分)10分もあればお釣りがきます。
 ### レポジトリを作る。
+
 まずはレポジトリを作ります。
 
 
-https://github.com/fastai/fastpages にアクセスして、
+[fastpagesのリポジトリ](https://github.com/fastai/fastpages) にアクセスして、
 
 README.mdのSetup Instructionsの項目を実行していきます。
 
