@@ -1,4 +1,13 @@
-# fastpagesを使って簡単にブログを作る
+---
+toc: true
+layout: post
+description: fastpagesで簡単にブログを作る
+categories: [tutorial]
+title: fastpagesを使って簡単にブログを作る
+---
+
+
+
 
 
 
