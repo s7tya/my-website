@@ -13,7 +13,7 @@ title: fastpagesを使って簡単にブログを作る
 
 ## fastpagesとは
 
-fast.ai が開発したブログプラットフォーム(?)です。
+[fast.ai](fast.ai) が開発したブログプラットフォーム(?)です。
 
 大きな特徴として、 「Jupyter Notebookをそのまま記事にできる」ということが挙げられます。
 
