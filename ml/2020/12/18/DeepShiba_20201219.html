@@ -163,7 +163,7 @@ window.onload = wrap_img;
   <div class="post-content e-content" itemprop="articleBody">
     <ul class="section-nav">
 <li class="toc-entry toc-h2"><a href="#DeepShibaとは">DeepShibaとは </a></li>
-<li class="toc-entry toc-h1"><a href="#最初の最初">最初の最初 </a>
+<li class="toc-entry toc-h2"><a href="#最初の最初">最初の最初 </a>
 <ul>
 <li class="toc-entry toc-h3"><a href="#今後の予定">今後の予定 </a></li>
 </ul>
@@ -200,9 +200,9 @@ window.onload = wrap_img;
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="最初の最初">
+<h2 id="最初の最初">
 <a class="anchor" href="#%E6%9C%80%E5%88%9D%E3%81%AE%E6%9C%80%E5%88%9D" aria-hidden="true"><span class="octicon octicon-link"></span></a>最初の最初<a class="anchor-link" href="#%E6%9C%80%E5%88%9D%E3%81%AE%E6%9C%80%E5%88%9D"> </a>
-</h1>
+</h2>
 </div>
 </div>
 </div>
@@ -263,24 +263,15 @@ $$
 
 </div>
 </div>
-</div>search: variable Variable @variable
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><code>variable</code>を使うことで<code>ShibaObject.Variable</code>を作ります。これは演算時に自動で勾配を計算します。</p>
 
-variable(data, [creator=nothing, grad=nothing, generation=0, name=""]) -&gt; Variable
-Return DeepShiba.Variable initialized by data and name.
-
-Examples
-julia&gt; x = variable(10, name="x")
-{DeepShiba.ShibaObject.Variable}:
-x :
-data: 10
-User-Defined
-
-
-julia&gt; x.data
-10
-
-julia&gt; x.name
-"x"このvariableを使うことで、自動で勾配を計算します。
+</div>
+</div>
+</div>
     
     
 <div class="cell border-box-sizing code_cell rendered">
