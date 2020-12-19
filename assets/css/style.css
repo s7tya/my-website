@@ -433,5 +433,6 @@ table td { text-overflow: ellipsis; overflow: hidden; max-width: 15em; }
 
 /*-----------------------------------*/
 /*----- ADD YOUR STYLES BELOW -------*/
+.output pre { background-color: #ffffff; }
 
 /*# sourceMappingURL=style.css.map */
