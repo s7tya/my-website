@@ -4,10 +4,9 @@ title: About Me
 permalink: /about/
 ---
 
-This is where you put the contents of your *About* page. Like all your pages, it's in [Markdown](https://guides.github.com/features/mastering-markdown/) format.
+abap34です。愛知県で高校生をしています。
+主に機械学習関連のことをガチャガチャして遊んでいます。
+気軽に話しかけてください！
 
-This website is powered by **[fastpages](https://github.com/fastai/fastpages)** [^1].
-
-
-
-[^1]:a blogging platform that natively supports Jupyter notebooks in addition to other formats.
+Twitter:https://twitter.com/abap34
+GitHub:https://github.com/abap34
