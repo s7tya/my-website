@@ -5,7 +5,7 @@ title: JuliaでUnionFindを実装する
 toc: true 
 badges: true
 comments: true
-categories: [JuliaLang, 競技プログラミング]
+categories: [AtCoder]
 image: images/chart-preview.png
 nb_path: _notebooks/UnionFind.ipynb
 layout: notebook
