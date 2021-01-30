@@ -1,18 +1,86 @@
 /*-----------------------------------*/
 /*--- IMPORT STYLES FOR FASTPAGES ---*/
-@import "minima/fastpages-styles";   
-
-
+@import "minima/fastpages-styles";
 
 /*-----------------------------------*/
 /*----- ADD YOUR STYLES BELOW -------*/
 
 // If you want to turn off dark background for syntax highlighting, comment or delete the below line.
-//@import "minima/fastpages-dracula-highlight"; 
-
+//@import "minima/fastpages-dracula-highlight";
 
 .output pre {
-    background-color: #ffffff;
-    color: rgba(0, 0, 0, 0.39);
+  background-color: #ffffff;
+  color: rgba(0, 0, 0, 0.39);
+}
 
-  }
+.fas.fa-tags.category-tags-icon {
+  display: none;
+}
+
+.category-tags-link {
+  padding: 4px 8px;
+  border-radius: 2px;
+  background: #333333;
+  color: #ffffff !important;
+}
+
+body {
+  background: #edf2f7 !important;
+  padding: 0 20px !important;
+}
+.site-header {
+  top: 0;
+  border: none !important;
+  width: 800px;
+  max-width: 100%;
+  margin: 0 auto;
+  background: #edf2f7 !important;
+}
+.wrapper {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.site-title:hover {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.5);
+}
+.page-content {
+  /* background: #ffffff;
+  border-radius: 12px;
+  padding: 20px 20px !important; */
+  max-width: 100%;
+  width: 800px;
+  margin: 20px auto 0;
+}
+.post-title.p-name {
+  margin: 20px 0 !important;
+  font-size: 28px !important;
+  font-weight: 700 !important;
+}
+.page-content h2 {
+  background: #eeeeee;
+  padding: 8px 16px;
+  border-left: 6px solid rgb(54, 91, 255);
+}
+.page-content p {
+  font-size: 16px !important;
+  line-height: 1.5;
+}
+.site-footer {
+  width: 800px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.home p img {
+  width: 120px;
+  height: 120px;
+}
+.post-list li {
+  background: #ffffff;
+  border-radius: 4px;
+  margin: 12px 0 !important;
+  padding: 20px;
+}
+#posts {
+  display: none;
+}
